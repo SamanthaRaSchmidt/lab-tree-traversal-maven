@@ -7,8 +7,8 @@ import java.util.Iterator;
  * Simple binary trees.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
- * @author Your Name Here
+ * @author Sam Schmidt
+ * @author Princess A
  *
  * @param <T>
  *   The type of value stored in the tree.
@@ -111,6 +111,27 @@ public class BinaryTree<T> implements Iterable<T> {
       } // if has children
     } // else
   } // dump
+
+  // /**
+  //  * Print the elements of the tree on a single (very long) line
+  //  * 
+  //  */
+  // void elements01(PrintWriter pen) {
+  //   elements01H();
+
+  // /**
+  //  * 
+  //  */
+  // public elements01H(PrintWriter pen, BinaryTreeNode<T> node) {
+  //   if (root == null) {
+  //     pen.print(" <> ");
+  //   } else {
+  //     if ()
+  //     pen.print(this.root.left);
+  //     pen.print(this.root.right);
+  //     } // if has children
+  //   } // else
+  // } // BinaryTree
 
   /**
    * Build a tree from a subarray from lb (inclusive) to ub (exclusive).
